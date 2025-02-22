@@ -1,0 +1,175 @@
+
+.container{
+    margin: 0px 48px 0px 48px;
+}
+
+#brand-logo{
+    height: 28px;
+    width: 28px;
+}
+.row-one{
+    display: flex;
+    height: 48px;
+    width: auto;
+    justify-content: space-between;
+}
+    
+
+.feature{
+    width: 250px;
+    display: flex;
+    margin: 12px;
+    justify-content: space-between;
+}
+
+.feature li{
+list-style-type: none;
+}
+
+ ul :hover{
+    background: #e4696224;
+    color: black;
+    list-style:outside;
+    cursor: pointer;
+}
+
+.group{
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+
+/* search section */
+.search{
+    width:auto;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background: #f6f6f6;
+    border-radius: 15px;
+    padding: 14px;
+}
+
+.search-input{
+    font-size: small;
+    margin: 14px;
+    border: none;
+    outline: none;
+    background:transparent;
+}
+
+/* banner */
+
+.banner{
+    width: 1430px;
+    height: 345px;
+    border: 16px;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-top: 16px;
+}
+
+/* .slider{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+} */
+
+.dots{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.dot{
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background: #ED726B;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dotSelect{
+    background: #ED726B;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+
+    transition: background-color 0.6s ease;
+
+}
+
+.active , .dot:hover{
+    background-color: #717171;
+}
+
+/* card */
+.card{
+    height: 305px;
+    width: 264px;
+    background: #f6f6f6;
+    border-radius: 16px;
+    padding: 12px;
+   
+}
+.imageCard{
+    justify-items: center;
+}
+
+.card img{
+    height: 176px;
+    width: 266px;
+    padding-top: 6px;
+    border-radius: 16px;
+}
+/* txt */
+.card h2{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.card h4{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+/* price and rate */
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate{
+    align-items: center;
+    display: flex;
+}
+.rate img{
+    height: 18px;
+    width: 18px;
+}
+/* Tags */
+.tags  {
+   margin:16px 0 16px 0 ;
+   width: auto;
+   display: flex;
+   justify-content: space-between; 
+
+}
+.tags button{
+    font-size: medium;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #555454;
+}
+
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    
+}

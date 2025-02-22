@@ -1,0 +1,177 @@
+<!DOCTYPE html >
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html dir="rtl" >
+    <head>
+        <meta charset="utf-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>testingPage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- header -->
+            <section class="headers">
+                <div class="row-one">
+                    <!----Group------>
+                <div class="group">
+                    <!-- bascket icon-->
+                    <div class="basket">
+                        <img src="images/bascket.png" alt="">
+                    </div>
+                    <!--- menu icon-->
+                    <div class="menu">
+                        <img src="images/menu.png" alt="">
+                    </div>
+                </div>
+                <!--- feature --------->
+                <div>
+                    <ul class="feature">
+                        <li>دسته بندی</li>
+                        <li>محصولات</li>
+                        <li>درباره ما</li>
+                        <li>ارتباط با ما</li>
+                    </ul>
+                </div>
+                  <!---- logo's brand-->
+                  <div>
+                    <img  id="brand-logo" src="images/logo.png">
+                </div>
+                </div>
+                <div class="row-two">
+                    <!--- search bar-->
+                    <form >
+                        <div class="search">
+                        <!-- search icon-->
+                         <img src="images/search-normal.png" alt="search">
+                         <input type="search" class="search-input" placeholder=" محصول مورد نظر خود را جست و جو کنید">
+                    </form>
+                </div>
+            </section>
+            <!-- banner -->
+             <section class="slider" >
+                <!-- image 1 of slider -->
+                <div class="mySlides " >
+                    <img class="banner" src="images/banner.jpg">
+                </div>
+                <!-- dots -->
+                 <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dotSelect" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+
+                 </div>
+             </section>
+             <!-- all categoryies with Tap -->  
+              <section>
+                 <!-- button -->
+               <div class="tags">
+                <button id="b" onclick="openProduct('all')">همه</button>
+                <button onclick="openProduct('sugges')">پیشنهادها</button>
+                <button onclick="openProduct('favorit')">پرفروشها</button>
+                <button onclick="openProduct('abajor')">آباژور</button>
+                <button onclick="openProduct('canape')">مبلمان</button>
+                <button onclick="openProduct('desk')">میز</button>
+                <button onclick="openProduct('chair')">صندلی</button>
+                <button onclick="openProduct('lampe')">چراغ مطالعه</button>
+             </div>
+             <hr>
+                <!-- p1 -->
+                <div class="product" id="all">
+                    <div class="card">
+                        <div >
+                            <!-- img -->
+                            <div class="imageCard">
+                                <img  src="images/p1 (1).png">
+                            </div>
+                            <h2>میز آشپزخانه مینیمال</h2>
+                            <h4>مناسب برای همه ی اشپرخانها</h4>
+                            <!-- price and rate -->
+                             <div class="info">
+                                <!-- rate -->
+                                 <div class="rate">
+                                    <img  src="images/star.png" alt="rate">
+                                    <h3>4.5</h3>
+                                 </div>
+                                 <h3>1500/000/000</h3>
+                             </div>
+                        </div>
+                    </div>
+                    <!-- card -->
+                    <div class="card">
+                        <div >
+                            <!-- img -->
+                            <div class="imageCard">
+                                <img  src="images/p1 (2).png" alt="banner">
+                            </div>
+                            <h2>میز آشپزخانه مینیمال</h2>
+                            <h4>مناسب برای همه ی اشپرخانها</h4>
+                            <!-- price and rate -->
+                             <div class="info">
+                                <!-- rate -->
+                                 <div class="rate">
+                                    <img  src="images/star.png" alt="rate">
+                                    <h3>4.5</h3>
+                                 </div>
+                                 <h3>1500/000/000</h3>
+                             </div>
+                        </div>
+                    </div>
+                    <!-- card -->
+                    <div class="card">
+                        <div >
+                            <!-- img -->
+                            <div class="imageCard">
+                                <img  src="images/p1 (3).png" alt="banner">
+                            </div>
+                            <h2>میز آشپزخانه مینیمال</h2>
+                            <h4>مناسب برای همه ی اشپرخانها</h4>
+                            <!-- price and rate -->
+                             <div class="info">
+                                <!-- rate -->
+                                 <div class="rate">
+                                    <img  src="images/star.png" alt="rate">
+                                    <h3>4.5</h3>
+                                 </div>
+                                 <h3>1500/000/000</h3>
+                             </div>
+                        </div>
+                    </div>
+                    <!-- card -->
+                    <div class="card">
+                        <div >
+                            <!-- img -->
+                            <div class="imageCard">
+                                <img  src="images/p1 (4).png"banner">
+                            </div>
+                            <h2>میز آشپزخانه مینیمال</h2>
+                            <h4>مناسب برای همه ی اشپرخانها</h4>
+                            <!-- price and rate -->
+                             <div class="info">
+                                <!-- rate -->
+                                 <div class="rate">
+                                    <img  src="images/star.png" alt="rate">
+                                    <h3>4.5</h3>
+                                 </div>
+                                 <h3>1500/000/000</h3>
+                             </div>
+                        </div>
+                    </div>
+                   
+                </div>
+
+               
+              </section>
+        </div>
+    
+        <script src="index.js" async defer></script>
+    </body>
+    
+</html>
